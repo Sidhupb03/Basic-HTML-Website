@@ -1,0 +1,150 @@
+/* ===================== RESET ===================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===================== BODY ===================== */
+body {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: Arial, sans-serif;
+}
+
+/* ===================== HEADER ===================== */
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    border-bottom: 0;
+    padding: 15px 0;
+}
+
+/* Logo */
+.logo {
+    padding-left: 40px;
+}
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-right: 40px;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ===================== BANNER ===================== */
+.banner {
+    height: 90vh;
+    border: 2px solid black;
+    border-bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Banner text spacing */
+.banner-title {
+    margin-bottom: 10px;
+}
+
+.banner-subtitle {
+    margin-top: 0;
+}
+
+/* ===================== GRID ===================== */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 58vh;
+}
+
+/* Columns */
+.column {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+/* Remove right border on first two columns */
+.projects-column,
+.experience-column {
+    border-right: 0;
+}
+
+/* Cards inside columns */
+.card {
+    border: 2px solid black;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+
+/* Links inside experience cards */
+.experience-column .card a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Course list in education column */
+.course-list li {
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 1.2em;
+}
+
+/* ===================== GRID ===================== */
+.border{
+    border: 2px solid black;
+    margin-top: 80px;
+}
+
+.reviews{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    padding-left: 30px;
+}
+
+.second-grid-container{
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.second-grid-container .square{
+    border: 2px solid black;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px 25px;
+    border-radius: 30px;
+}
+
+.transparent{
+    margin-top: 20px;
+    font-style: oblique;
+    color: rgb(189, 163, 124);
+}
+
+/* ===================== FOOTER ===================== */
+.footer{
+    border: 2px solid black;
+    border-top: 0;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
